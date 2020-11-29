@@ -3,7 +3,7 @@
 
 ## Lap Times Heat Map
 
-![sg_laptimes_heatmap](https://raw.githubusercontent.com/tanchcliff/data/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Heatmap.png)
+![sg_laptimes_heatmap](https://raw.githubusercontent.com/tanchcliff/data/main/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Heatmap.png)
 
 above is a heatmap of lap times (seconds) of each driver across the laps of the race in Singapore.
 
@@ -16,7 +16,7 @@ very interesting to see the overall race progression in a single chart, e.g.:
 
 ## Lap Times Distribution
 
-![sg_laptimes_distribution_plot_kde](https://raw.githubusercontent.com/tanchcliff/data/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Dist_Plot_KDE.png)
+![sg_laptimes_distribution_plot_kde](https://raw.githubusercontent.com/tanchcliff/data/main/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Dist_Plot_KDE.png)
 
 quick and simple plot using seaborn 0.9.0's distplot() function, generating a histogram and fitting a kernal density estimate, using the default bandwidth value.
 
@@ -24,11 +24,11 @@ we see that it is a multimodal distribution, with majority of values below appro
 
 this helped when we develop box plots for the lap times of each driver below. 
 
-![sg_laptimes_box_plot_all](https://raw.githubusercontent.com/tanchcliff/data/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Box_Plot_1.png)
+![sg_laptimes_box_plot_all](https://raw.githubusercontent.com/tanchcliff/data/main/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Box_Plot_1.png)
 
 first box plot is for all lap times of all drivers.
 
-![sg_laptimes_box_plot_filtered](https://raw.githubusercontent.com/tanchcliff/data/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Box_Plot_2.png)
+![sg_laptimes_box_plot_filtered](https://raw.githubusercontent.com/tanchcliff/data/main/f1_2019/charts/2019_15_Singapore_F1_Lap_Times_Box_Plot_2.png)
 
 the second is for lap times under 120 seconds, allowing for a better appreciation of the distribution of the fast laps around the circuit.
 
